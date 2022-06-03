@@ -1,4 +1,4 @@
-src\functions.o
-src\main.o
-src\program.exe
-src\tempCodeRunnerFile.c
+src/functions.o
+src/main.o
+src/program.exe
+src/tempCodeRunnerFile.c
