@@ -1,4 +1,4 @@
-#       :soccer: Football Standings Calculator/Program
+# :soccer: Football Standings Calculator/Program
 ## About
 Proyek ***Football Standings*** ini dibuat sebagai tugas untuk Proyek Akhir Semester (PAS) 2 dari mata kuliah Pemrograman Lanjut Kelas 01 . Berfungsi untuk melakukan kalkulasi dari hasil suatu turnamen dan menunjukkan ranking akhir dalam bentuk tabel. Modifikasi yang diberikan pada program ini adalah penambahan struktur data *binary search tree* yang digunakan untuk ranking *TISS*, yang juga menjadi salah satu poin penilaian untuk PAS semester ini.
  
@@ -24,7 +24,7 @@ Pada menu ketiga (3), program akan menampilkan ranking dari semua tim yang telah
 Program ini juga menyediakan menu help pada menu-menu utamanya agar memudahkan user untuk mencari jalannya ataupun mereka yang hanya ingin mencari tahu lebih lanjut tentang fitur-fitur yang ada.
 
 ## Cara mengcompile
-Masuk terlebih dahulu ke folder src dan compile programnya
+Masuk terlebih dahulu ke folder src lalu compile programnya
 ```
 cd src
 ```
