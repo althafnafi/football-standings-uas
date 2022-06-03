@@ -1,6 +1,6 @@
-# Football Standings Calculator/Program
+# :soccer: Football Standings Calculator/Program
 ## About
-Proyek ***Football Standings*** ini dibuat sebagai tugas untuk Proyek Akhir Semester (PAS) dari mata kuliah Pemrograman Lanjut. Berfungsi untuk melakukan kalkulasi dari hasil suatu turnamen dan menunjukkan ranking akhir dalam bentuk tabel. Modifikasi yang diberikan pada program ini adalah penambahan struktur data *binary search tree* yang digunakan untuk ranking *TISS*, yang juga menjadi salah satu poin penilaian untuk PAS semester ini.
+Proyek ***Football Standings*** ini dibuat sebagai tugas untuk Proyek Akhir Semester (PAS) 2 dari mata kuliah Pemrograman Lanjut Kelas 01 . Berfungsi untuk melakukan kalkulasi dari hasil suatu turnamen dan menunjukkan ranking akhir dalam bentuk tabel. Modifikasi yang diberikan pada program ini adalah penambahan struktur data *binary search tree* yang digunakan untuk ranking *TISS*, yang juga menjadi salah satu poin penilaian untuk PAS semester ini.
  
 Program ini dibuat oleh:
 1. Adrien Ardra Ramadhan (2106731485)
@@ -18,7 +18,7 @@ Program ini dapat menghitung klasemen dengan mudah, pada menu (1) user akan dimi
 Pada menu bagian (2), user dapat melihat klasemen-klasemen pada turnamen yang telah diinput sebelumnya.
 
 ### Ranking berdasarkan *Team Index Scoring System*
-Pada menu ketiga (3), program akan menampilkan ranking dari semua tim yang telah diinput pada program (walaupun berbeda turnamen), dan diurutkan berdsarkan poin yang diperoleh dari sistem penilaian *TISS*. Pada menu ini user dapat meng-*exclude* tim dari pemeringkatan, dan juga diberikan fitur untuk mencari berdasarkan nama dan peringkat tim pada pemeringkatan tersebut.
+Pada menu ketiga (3), program akan menampilkan ranking dari semua tim yang telah diinput pada program (walaupun berbeda turnamen), dan diurutkan berdsarkan poin yang diperoleh dari sistem penilaian *TISS*. Pada menu ini user dapat meng-*exclude* tim dari klasemen, dan juga diberikan fitur untuk mencari berdasarkan nama dan peringkat tim pada pemeringkatan tersebut.
 
 ### Menu help
 Program ini juga menyediakan menu help pada menu-menu utamanya agar memudahkan user untuk mencari jalannya ataupun mereka yang hanya ingin mencari tahu lebih lanjut tentang fitur-fitur yang ada.
@@ -33,7 +33,7 @@ gcc -Wall -c functions.c && gcc -Wall -c main.c && gcc -o program functions.o ma
 ```
 
 ## Video Penjelasan
-![YouTube](youtube.com)
+![YouTube](https://www.youtube.com/watch?v=oBVMBGhNN0E)
 
 ## Komponen Penilaian
 | No.|            Komponen yang dinilai                | Keterangan |
