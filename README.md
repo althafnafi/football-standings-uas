@@ -52,23 +52,23 @@ gcc -Wall -c functions.c && gcc -Wall -c main.c && gcc -o program functions.o ma
 | 11 | Membaca/menghapus node dari suatu data structure| Fitur *exclude* a team from rankings menggunakan deletion<br>**- Function**: *deleteNode (delete), printCombinedRankings (read)* |
 
 ## Function
-# *showCombinedRankings*
+### *showCombinedRankings*
 Menampilkan menu ranking berdasarkan *Team Index Ranking System (TISS)*, terdapat opsi untuk mencari tim berdasarkan nama, rank dan juga meng-*exclude* tim dari klasemen
-# *printCombinedRankings*
+### *printCombinedRankings*
 Menampilkan list tim pada klasemen gabungan dengan melakukan traversal secara inorder pada binary search tree
-# *helpTISS*
+### *helpTISS*
 Menampilkan menu help untuk klasemen berdasarkan *TISS*
-# *searchNameBst*
+### *searchNameBst*
 Mencari nama pada binary search tree dengan membandingkan string target dengan semua node yang ada pada binary tree
-# *searchRankBst*
+### *searchRankBst*
 Mencari tim berdasarkan rank pada binary tree dengan memanfaatkan counter dan inorder traversal
-# *newNode*
+### *newNode*
 Membuat node baru dan mereturn addressnya ke caller
-# *insertNode*
+### *insertNode*
 Melakukan insertion node baru pada binary search tree
-# *minValueNode*
+### *minValueNode*
 Mencari nilai paling kecil pada suatu subtree alias node paling kiri
-# *deleteNode*
+### *deleteNode*
 Menghapus node dari binary tree
-# *deallocate*
+### *deallocate*
 Mendealokasikan memori yang telah digunakan pada binary search tree
