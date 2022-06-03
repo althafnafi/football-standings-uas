@@ -33,7 +33,7 @@ gcc -Wall -c functions.c && gcc -Wall -c main.c && gcc -o program functions.o ma
 ```
 
 ## Video Penjelasan
-![YouTube](https://www.youtube.com/watch?v=oBVMBGhNN0E)
+![YouTube](youtube.com/watch?v=oBVMBGhNN0E)
 
 ## Komponen Penilaian
 | No.|            Komponen yang dinilai                | Keterangan |
