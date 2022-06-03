@@ -1,5 +1,5 @@
 # :soccer: Football Standings Calculator/Program
-## About
+## *About*
 Proyek ***Football Standings*** ini dibuat sebagai tugas untuk Proyek Akhir Semester (PAS) 2 dari mata kuliah Pemrograman Lanjut Kelas 01 . Berfungsi untuk melakukan kalkulasi dari hasil suatu turnamen dan menunjukkan ranking akhir dalam bentuk tabel. Modifikasi yang diberikan pada program ini adalah penambahan struktur data *binary search tree* yang digunakan untuk ranking *TISS*, yang juga menjadi salah satu poin penilaian untuk PAS semester ini.
  
 Program ini dibuat oleh:
@@ -20,7 +20,7 @@ Pada menu bagian (2), user dapat melihat klasemen-klasemen pada turnamen yang te
 ### Ranking berdasarkan *Team Index Scoring System*
 Pada menu ketiga (3), program akan menampilkan ranking dari semua tim yang telah diinput pada program (walaupun berbeda turnamen), dan diurutkan berdsarkan poin yang diperoleh dari sistem penilaian *TISS*. Pada menu ini user dapat meng-*exclude* tim dari klasemen, dan juga diberikan fitur untuk mencari berdasarkan nama dan peringkat tim pada pemeringkatan tersebut.
 
-### Menu help
+### *Menu help*
 Program ini juga menyediakan menu help pada menu-menu utamanya agar memudahkan user untuk mencari jalannya ataupun mereka yang hanya ingin mencari tahu lebih lanjut tentang fitur-fitur yang ada.
 
 ## Cara mengcompile
@@ -51,7 +51,7 @@ gcc -Wall -c functions.c && gcc -Wall -c main.c && gcc -o program functions.o ma
 | 10 | Menambahkan node ke suatu data structure        | Node akan secara otomatis diinsert ketika user selesai menginput data turnamen<br> **- Function**: *insertNode* |
 | 11 | Membaca/menghapus node dari suatu data structure| Fitur *exclude* a team from rankings menggunakan deletion<br>**- Function**: *deleteNode (delete), printCombinedRankings (read)* |
 
-## Function
+## *Functions*
 ### *showCombinedRankings*
 Menampilkan menu ranking berdasarkan *Team Index Ranking System (TISS)*, terdapat opsi untuk mencari tim berdasarkan nama, rank dan juga meng-*exclude* tim dari klasemen
 ### *printCombinedRankings*
